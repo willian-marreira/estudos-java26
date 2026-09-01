@@ -16,7 +16,7 @@ class saudacao{
         }else if (hour<= 00){
             System.out.println("Good Night");
         }else if(hour > 23){
-            System.out.print("Invalid Entry"
+            System.out.print("Invalid Entry");
         }
     }
 
