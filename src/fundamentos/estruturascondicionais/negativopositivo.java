@@ -1,3 +1,4 @@
+package fundamentos.estruturascondicionais;
 import java.util.Scanner;
 
 public class negativopositivo {
@@ -5,16 +6,16 @@ public class negativopositivo {
         Scanner scanner = new Scanner(System.in);
 
         // Exibe a mensagem ANTES de solicitar o número
-        System.out.print("Digite um número: ");
+        System.out.print("Enter a number ");
         int num = scanner.nextInt();
 
         if (num < 0) {
             // Usando printf para interpretar o %d e adicionando %n para quebrar linha
-            System.out.printf("O número %d é negativo%n", num);
+            System.out.printf("The number %d is negative%n", num);
         } else if (num > 0) {
-            System.out.printf("O número %d é positivo%n", num);
+            System.out.printf("The number %d is positive%n", num);
         } else {
-            System.out.println("Não negativo");
+            System.out.println("Not negative");
         }
 
         scanner.close();
