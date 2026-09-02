@@ -1,4 +1,4 @@
-package fundamentos.estruturascondicionais;
+package fundamentos;
 
 import java.util.Scanner;
 
