@@ -1,0 +1,29 @@
+package fundamentos.estruturascondicionais;
+
+import java.util.Scanner;
+
+public class codigoeproduto {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+
+        int codigo = scanner.nextInt();
+        int qtd = scanner.nextInt();
+        double total;
+
+        if (codigo == 1) {
+            total = qtd * 4.0;
+        } else if (codigo == 2) {
+            total = qtd * 4.5;
+        } else if (codigo == 3) {
+            total = qtd * 5.0;
+        } else if (codigo == 4) {
+            total = qtd * 2.0;
+        } else {
+            total = qtd * 1.0;
+        }
+
+        System.out.printf("Total: R$ %.2f%n", total);
+
+        scanner.close();
+    }
+}
