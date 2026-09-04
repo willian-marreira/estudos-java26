@@ -7,7 +7,7 @@ public class intervalo {
         System.out.println("Enter a number: ");
 
         int num = scanner.nextInt();
-        if(num<0 || num>100){
+        if(num<0 && num>100){
             System.out.printf("Out of Range");
         }else if(num<=25){
             System.out.printf("Interval (0, 25)");
