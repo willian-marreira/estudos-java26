@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebe4eae9-f523-40ce-81d9-f3087858a16e" name="Changes" comment="" />
+    <list default="true" id="ebe4eae9-f523-40ce-81d9-f3087858a16e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fundamentos/estruturascondicionais/taxatelefonica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +21,83 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/estudos-java26" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "willian-marreira"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;willian-marreira&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "git@github.com:willian-marreira/estudos-java26.git",
-    "accountId": "1a931c15-e39b-4ff2-b09e-ec9b4c218135"
+    "url": "https://github.com/willian-marreira/estudos-java26.git",
+    "accountId": "6f346447-0c73-4b25-bcbf-de16f5df6098"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000004241223" />
+      <entry key="S2" value="1.006306292953721" />
+      <entry key="S5" value="1.2849509406973325" />
+      <entry key="S10" value="2.4734353541545886" />
+      <entry key="S30" value="7.162530472957221" />
+      <entry key="S60" value="12.082965185936926" />
+      <entry key="M2" value="17.511932760499135" />
+      <entry key="M5" value="22.91915534708534" />
+      <entry key="M10" value="25.279199194434195" />
+      <entry key="M15" value="26.143161586819076" />
+      <entry key="M30" value="27.04932185184173" />
+      <entry key="H1" value="27.518946043448416" />
+      <entry key="H2" value="27.758025067948417" />
+      <entry key="H4" value="27.878648111703463" />
+      <entry key="D1" value="27.97972386310951" />
+      <entry key="W1" value="27.997102161669584" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.725306202799117E-9" />
+      <entry key="MS500" value="0.022467758335522565" />
+      <entry key="S2" value="0.39025435125536223" />
+      <entry key="S5" value="0.9155587323893426" />
+      <entry key="S10" value="2.1908214709863447" />
+      <entry key="S30" value="6.979427852439167" />
+      <entry key="S60" value="11.93568065173535" />
+      <entry key="M2" value="17.401113064721685" />
+      <entry key="M5" value="22.85839994192663" />
+      <entry key="M10" value="25.245061256612082" />
+      <entry key="M15" value="26.11947075820149" />
+      <entry key="M30" value="27.03698373305045" />
+      <entry key="H1" value="27.512648570349466" />
+      <entry key="H2" value="27.75484355052423" />
+      <entry key="H4" value="27.877049071629305" />
+      <entry key="D1" value="27.979456198860788" />
+      <entry key="W1" value="27.99706389547443" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3Igk0YGMjB622wQU9kUlxRi4Hq3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +107,18 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/marre/IdeaProjects/estudos-java26/src/Main.java",
     "settings.editor.selected.configurable": "terminal"
@@ -61,8 +132,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
